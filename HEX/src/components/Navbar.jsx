@@ -26,11 +26,11 @@ function Navbar() {
             </div>
 
             <div className={`${sticky ? 'fixed top-0 left-0 right-0 shadow-md bg-[#100A06] z-50' : 'relative'} 
-                   border-2 border-[#3e3834]  py-1 flex justify-center transition-all duration-500
+                   border-2 border-[#3e3834]  py-1 flex justify-between transition-all duration-500
                   `}>
                 <div className="h-14 w-7 mt-4 border-2  bg-[#231b17] "></div>
                 <div className="h-14 border-2 w-screen  mt-4 py-2 flex justify-center gap-7 ">
-                    <div class="grid grid-cols-4 gap-7  relative top-1 text-white">
+                    <div class="md:grid grid-cols-4 gap-7 hidden  relative top-1 text-white">
                         <div class="h-7 w-20  text-center flex justify-center"><h1> </h1> </div>
                         <div class="h-7 w-20  hover:bg-[#564b45ca] hover:text-white text-center flex justify-center"><h1> Products</h1> </div>
                         <div class="h-7 w-20  hover:bg-[#564b45ca] hover:text-white text-center flex">Use cases</div>
@@ -38,13 +38,14 @@ function Navbar() {
 
                     </div>
                     <div class="h-10 w-20 font-serif text-center text-4xl text-amber-600">HEX</div>
-                    <div class="grid grid-cols-4 gap-2 relative top-1 text-white ">
+                    <div class="md:grid hidden grid-cols-4 gap-2 relative top-1 text-white ">
                         <div class="h-7 w-20  hover:bg-[#564b45ca] hover:text-white text-center">Resources</div>
                         <div class="h-7 w-20  hover:bg-[#564b45ca] hover:text-white text-center">Pricing</div>
                         <div class="h-7 w-15 cursor-pointer  text-center hover:bg-[#564b45ca] hover:text-white " >Log In</div>
 
                         <div class="h-7 w-24  hover:bg-[#ae876b] hover:text-white text-center border-1 border-amber-700 "><button>Get started</button></div>
                     </div>
+                    <div className="text-amber-600 md:hidden flex ml-auto text-2xl w-8 h-8 text-center justify-center border border-amber-600">=</div>
                 </div>
                 <div className="h-14 mt-4 w-7 border-2  bg-[#231b17]"></div>
             </div>
