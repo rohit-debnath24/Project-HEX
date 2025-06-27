@@ -5,7 +5,7 @@ function LandingPage() {
         <>
             <div className="md:flex ">
                 <div > 
-                    <div className="md:ml-10 ml-8   text-transparent bg-clip-text bg-[linear-gradient(55deg,white_20%,rgba(245,192,192,0.8)_100%)]  mt-10 text-5xl md:text-8xl md:w-180 md:h-50 h-35 bg-amber-500 font-medium">
+                    <div className="md:ml-10 ml-1 text-center  text-transparent bg-clip-text bg-[linear-gradient(55deg,white_20%,rgba(245,192,192,0.8)_100%)]  mt-10 text-5xl md:text-8xl md:w-180 md:h-50 h-35 bg-amber-500 font-medium">
                         Go deeper than<br/> dashboards
                     </div>
                     <div className="  md:w-150 md:mt-5 text-center text-amber-800 break-words text-2xl">
