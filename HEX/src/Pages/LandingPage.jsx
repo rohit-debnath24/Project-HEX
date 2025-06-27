@@ -3,8 +3,8 @@ import Companies from "../components/Companies";
 function LandingPage() {
     return (
         <>
-            <div className="flex">
-                <div >
+            <div className="flex \\\\\\">
+                <div > 
                     <div className="ml-10    text-transparent bg-clip-text bg-[linear-gradient(55deg,white_20%,rgba(245,192,192,0.8)_100%)]  mt-10 text-8xl w-180 h-50 leading-22 bg-amber-500 font-medium">
                         Go deeper than dashboards
                     </div>

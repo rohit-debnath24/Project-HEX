@@ -24,7 +24,7 @@ const timelineData = [
 
 ];
 
-const IntDataPage = () => {
+const SelfServe = () => {
     const [activeIndex, setActiveIndex] = useState(-1);
     const [lineHeight, setLineHeight] = useState(0);
     const intervalRef = useRef(null);
@@ -108,7 +108,7 @@ const IntDataPage = () => {
                             <img
                                 src={item.image}
                                 alt={item.title}
-                                className={`absolute top-450 left-200 h-120 w-120  object-cover rounded-lg transition-opacity duration-1000 ${activeIndex === index ? "opacity-100" : "opacity-0"
+                                className={`absolute top-620 left-200 h-120 w-120  object-cover rounded-lg transition-opacity duration-1000 ${activeIndex === index ? "opacity-100" : "opacity-0"
                                     }`}
                             />
                         </div>
@@ -132,4 +132,4 @@ const IntDataPage = () => {
     )
 }
 
-export default IntDataPage
+export default SelfServe

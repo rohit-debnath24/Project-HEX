@@ -6,30 +6,74 @@ import LovablePage from "./Pages/LovablePage.jsx"
 import IntegrationPage from "./Pages/IntegrationPage.jsx"
 import SecurityPage from "./Pages/SecurityPage.jsx"
 import IntDataPage from "./Pages/IntDataPage.jsx"
+import AnimPage from "./Pages/AnimPage.jsx"
+import React, { useEffect, useState } from "react";
+import SelfServe from "./Pages/SelfServe.jsx"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function App() {
- 
+
+  const [key, setKey] = useState(Date.now()); // unique key to force remount
+
+  useEffect(() => {
+    // Refresh key on mount
+    setKey(Date.now());
+  }, []);
+
+
+
+
 
   return (
     <>
-    <div className=" overflow-hidden">
-      <div className="bg-[#100A06]  ">
-        
-        <Navbar/> 
-        <LandingPage/> 
-        <NavPage/>
-        <SecNav/>
-        <IntDataPage/>
-         <IntDataPage/> {/*same for self serve page */}
-        <LovablePage/>
-        
-        <IntegrationPage/>
-        <SecurityPage/>
-        <IntegrationPage/>
-        
-        
+      <div className=" overflow-hidden">
+        <div className="bg-[#100A06]  ">
+
+          <Navbar />
+          <LandingPage />
+          <NavPage />
+          <SecNav />
+
+          <IntDataPage /> {/*same for self serve page */}
+          <SelfServe/>
+          <LovablePage />
+
+          <IntegrationPage />
+          <SecurityPage />
+          <IntegrationPage />
+
+
+         
+
+
+
+
+        </div>
       </div>
-    </div>
-      
+
     </>
   )
 }
