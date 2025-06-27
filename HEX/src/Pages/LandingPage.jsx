@@ -3,13 +3,13 @@ import Companies from "../components/Companies";
 function LandingPage() {
     return (
         <>
-            <div className="md:flex">
+            <div className="md:flex ">
                 <div > 
-                    <div className="ml-10    text-transparent bg-clip-text bg-[linear-gradient(55deg,white_20%,rgba(245,192,192,0.8)_100%)]  mt-10 text-5xl md:text-8xl w-180 h-50  bg-amber-500 font-medium">
+                    <div className="md:ml-10 ml-8   text-transparent bg-clip-text bg-[linear-gradient(55deg,white_20%,rgba(245,192,192,0.8)_100%)]  mt-10 text-5xl md:text-8xl md:w-180 md:h-50 h-35 bg-amber-500 font-medium">
                         Go deeper than<br/> dashboards
                     </div>
-                    <div className="  md:w-150 md:mt-5 ml-10 text-amber-800 text-2xl">
-                        Hex is the AI-powered analytics workspace built for<br /> teams driving faster answers and better decisions.
+                    <div className="  md:w-150 md:mt-5 text-center text-amber-800 break-words text-2xl">
+                        Hex is the AI-powered analytics workspace built for teams driving faster answers and better decisions.
                     </div>
                     <div className="flex justify-around m-auto">
                         <button className=" md:ml-10 mt-10 w-40 md:w-50 h-16 text-amber-800 border-amber-700 hover:text-amber-500 hover:text-[20px] duration-500 border-2 hover:opacity-100 opacity-90  hover:bg-[#db693069]    ">Get Started</button>
