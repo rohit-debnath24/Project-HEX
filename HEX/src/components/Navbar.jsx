@@ -9,7 +9,7 @@ function Navbar() {
 
     useEffect(() => {
         const onScroll = () => {
-            setSticky(window.scrollY > 100); // toggle at 100px
+            setSticky(window.scrollY > 100 ); // toggle at 100px
         };
         window.addEventListener('scroll', onScroll);
         return () => window.removeEventListener('scroll', onScroll);

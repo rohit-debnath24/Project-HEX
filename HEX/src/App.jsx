@@ -9,30 +9,8 @@ import IntDataPage from "./Pages/IntDataPage.jsx"
 import AnimPage from "./Pages/AnimPage.jsx"
 import React, { useEffect, useState } from "react";
 import SelfServe from "./Pages/SelfServe.jsx"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import BuildAnythingPage from "./Pages/BuildAnythingPage.jsx"
+import DeepdivePage from "./Pages/DeepdivePage.jsx"
 
 function App() {
 
@@ -56,21 +34,21 @@ function App() {
           <LandingPage />
           <NavPage />
           <SecNav />
+          <DeepdivePage/>
 
-          <IntDataPage /> {/*same for self serve page */}
+          <IntDataPage /> 
           <SelfServe/>
           <LovablePage />
 
           <IntegrationPage />
           <SecurityPage />
-          <IntegrationPage />
-
-
-         
+          <BuildAnythingPage/>
+     
 
 
 
 
+     
         </div>
       </div>
 

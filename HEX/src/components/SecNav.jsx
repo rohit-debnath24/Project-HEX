@@ -1,21 +1,34 @@
 import React from "react"
+import  { useState, useEffect } from 'react';
 
 const SecNav = () => {
+    const [sticky, setSticky] = useState(false);
+  
+      useEffect(() => {
+          const onScroll = () => {
+              setSticky(window.scrollY > 1500 && window.scrollY<4300 ); // toggle at 100px
+          };
+          window.addEventListener('scroll', onScroll);
+          return () => window.removeEventListener('scroll', onScroll);
+      }, []);
   return (
     <>
-      <div className=" grid grid-cols-[20px_1fr_20px] gap-0   py-1">
-        <div className=" min-h-7 mt-4 sm:bg-[#231b17]"></div>
-        <div className=" min-h-7  border-2    mt-4 py-1 flex justify-center sm:text-[10px] md:text-[15px] text-center items-center">
-          <div className="sm:grid hidden  sm:grid-cols-12  min-h-7 w-full">
-            <div className=" grid items-center sm:col-span-6  sm:text-[10px] md:text-[15px]  min-h-7 text-left pl-10 lg:text-3xl text-[#dad2ce] font-bold">An integrated workspace for analytics</div>
-            <div className="   sm:col-span-2 grid justify-center sm:text-[10px] md:text-[15px] text-center items-center min-h-7 text-[#bea89d] ">I Dive-deep analysis</div>
-            <div className="   sm:col-span-2 grid justify-center sm:text-[10px] md:text-[15px] text-center items-center min-h-7 text-[#bea89d] ">I Interactive data apps</div>
-            <div className="   sm:col-span-2 grid justify-center sm:text-[10px] md:text-[15px] text-center items-center min-h-7 text-[#bea89d] ">I Self-serve exploration</div>
+    <div ></div>
+      <div className= {`${sticky ? 'fixed top-[66px] left-0 right-0 shadow-md bg-[#100A06] z-50' : 'relative'} 
+                   border-2   py-1 justify-center transition-all duration-500  grid grid-cols-[20px_1fr_20px] gap-0   
+                  `}>
+        <div className=" min-h-6  sm:bg-[#231b17]"></div>
+        <div className=" min-h-6  border-2    py-1 flex justify-center sm:text-[10px] md:text-[15px] text-center items-center">
+          <div className="sm:grid hidden  sm:grid-cols-12  min-h-6 w-full">
+            <div className=" grid items-center sm:col-span-6  sm:text-[10px] md:text-[15px]  min-h-6 text-left pl-10 lg:text-3xl text-[#dad2ce] font-bold">An integrated workspace for analytics</div>
+            <div className="   sm:col-span-2 grid justify-center sm:text-[10px] md:text-[15px] text-center items-center min-h-6 text-[#bea89d] " ><a href="#"> I Dive-deep analysis </a></div>
+            <div className="   sm:col-span-2 grid justify-center sm:text-[10px] md:text-[15px] text-center items-center min-h-6 text-[#bea89d]  "><a href="#IntDataPage"> I Interactive data apps </a></div>
+            <div className="   sm:col-span-2 grid justify-center sm:text-[10px] md:text-[15px] text-center items-center min-h-6 text-[#bea89d] "><a href="#SelfServePage">I Self-serve exploration </a> </div>
 
 
           </div>
         </div>
-        <div className=" min-h-7  mt-4 sm:bg-[#231b17]"></div>
+        <div className=" min-h-6   sm:bg-[#231b17]"></div>
       </div>
     </>
   )
