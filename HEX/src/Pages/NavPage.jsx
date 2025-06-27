@@ -40,7 +40,7 @@ function NavPage() {
                     </div>
 
                     <div className="flex justify-center">
-                        <div className=" grid grid-cols-2 absolute md:top-347 top-645 border-dotted w-80  md:w-200 h-15 md:h-25 border-b-2 border-amber-300 z-[] ">
+                        <div className=" grid grid-cols-2 absolute md:top-347 top-640 border-dotted w-80  md:w-200 h-15 md:h-25 border-b-2 border-amber-300 z-[] ">
                             
                             <div className=" border-l-1 border-dotted border-amber-300 border-r-1"></div>
                             <div className=" border-l-1 border-dotted border-amber-300 border-r-1"></div>
@@ -48,7 +48,7 @@ function NavPage() {
                         </div>
                     </div>
                     <div className="flex justify-center">
-                            <div className="absolute top-657 md:top-368 bg-black border-dotted text-orange-300 border-2 text-[10px] md:text-[20px] border-amber-300">UNDERLYING HEX PLATFORM</div>
+                            <div className="absolute top-652 md:top-368 bg-black border-dotted text-orange-300 border-2 text-[10px] md:text-[20px] border-amber-300">UNDERLYING HEX PLATFORM</div>
                     </div>
 
                 </div>
