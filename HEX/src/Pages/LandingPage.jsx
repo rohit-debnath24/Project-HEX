@@ -17,7 +17,7 @@ function LandingPage() {
                     </div>
                 </div>
                 <div className="md:aspect-w-16 w-40 md:aspect-h-9 md:w-full">
-                    <iframe className="ml-15 mt-5 border-1 border-gray-700 rounded-lg p-4 h-60 w-80 md:w-160 md:h-110"
+                    <iframe className="ml-8 md:ml-15 mt-5 border-1 border-gray-700 rounded-lg p-4 h-60 w-80 md:w-160 md:h-110"
                         src="https://www.youtube.com/embed/ejeUNsa8rBY?si=9QaQEqnEyx12IU4p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share loop" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                 </div>
