@@ -40,7 +40,7 @@ function NavPage() {
                     </div>
 
                     <div className="flex justify-center">
-                        <div className=" grid grid-cols-2 absolute top-347 left- w-200 h-25 border-b-2 border-amber-50 z-[] ">
+                        <div className=" grid grid-cols-2 md:absolute md:top-347 left- md:w-200 h-25 border-b-2 border-amber-50 z-[] ">
                             
                             <div className=" border-l-1  border-amber-300 border-r-1"></div>
                             <div className=" border-l-1  border-amber-300 border-r-1"></div>
