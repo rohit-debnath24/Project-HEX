@@ -4,11 +4,11 @@ const IntegrationPage = () => {
   return (
     <>
     <div className='grid sm:grid-rows-2 h-auto '>
-        <div className='  grid justify-center text-7xl text-bold text-white text-center'>Instant integration<br/> with the whole stack</div>
-        <div className=' grid justify-center text-2xl text-amber-600 text-center p-4'>Out-of-the-box connections and flexible<br/> APIs make setup a breeze.</div>
+        <div className='  grid justify-center text-4xl md:text-7xl font-bold text-white text-center'>Instant integration<br/> with the whole stack</div>
+        <div className=' grid justify-center md:text-2xl text-amber-600 text-center p-4'>Out-of-the-box connections and flexible<br/> APIs make setup a breeze.</div>
 
     </div>
-    <div className='grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-2 h-auto gap-3 ml-25 sm:ml-50 sm:mr-50 w-60 sm:w-auto '>
+    <div className='grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-2 h-auto gap-3 m-auto sm:ml-50 sm:mr-50 w-60 sm:w-auto '>
         {/* <div className='border border-amber-100 sm:col-span-3 sm:row-span-1 sm:max-h-64'></div> */}
         <div className='sm:row-span-1 border border-amber-100 sm:col-span-1 p-2 sm:grid sm:grid-rows-2 '><div><img src="https://fabrikbrands.com/wp-content/uploads/Logos-of-Multinational-Companies-1.png" className='bg-cover box-border w-full h-full'></img></div><div className='text-white'><div className='text-xl font-bold'>Built for the warehouse</div>
 <div className='text-[15px] p-4'>Hex has built-in connections to the most popular data warehouses, lakehouses, and databases. It’s easy to set up data connections, and securely share them with your team.</div></div></div>
