@@ -110,7 +110,7 @@ const SelfServe = () => {
                             <img
                                 src={item.image}
                                 alt={item.title}
-                                className={`absolute sm:top-940 sm:left-200 h-160 w-150  object-cover rounded-lg transition-opacity duration-1000 ${activeIndex === index ? "opacity-100" : "opacity-0"
+                                className={`md:absolute md:top-940 md:left-200 md:h-160 md:w-150 h-20 w-20  object-cover rounded-lg transition-opacity duration-1000 ${activeIndex === index ? "opacity-100" : "opacity-0"
                                 }`}
                                 />
                         </div>
