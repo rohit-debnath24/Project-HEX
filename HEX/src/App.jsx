@@ -35,10 +35,12 @@ function App() {
           <LandingPage />
           <NavPage />
           <SecNav />
-          <DeepdivePage/>
 
+          <DeepdivePage/>
           <IntDataPage /> 
-          <SelfServe/>
+          <IntDataPage /> 
+          {/* <IntDataPage />  */}
+           {/* <SelfServe/> */}
           <LovablePage />
 
           <IntegrationPage />
