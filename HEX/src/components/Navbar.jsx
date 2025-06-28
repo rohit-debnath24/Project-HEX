@@ -26,10 +26,11 @@ function Navbar() {
             </div>
 
             <div className={`${sticky ? 'fixed top-0 left-0 right-0 shadow-md bg-[#100A06] z-50' : 'relative'} 
-                   border-2 border-[#564b45ca]  md:py-1 flex justify-between transition-all duration-500
+                     md:py-1 flex justify-between transition-all duration-500
                   `}>
-                <div className="h-14 md:w-7 w-2 md:mt-4 border-2  bg-[#231b17] "></div>
-                <div className="h-14 border-2 w-screen  md:mt-4 py-2 flex justify-center gap-7 ">
+                    
+                <div className="h-14 md:w-7 w-2 mt-2 md:mt-4 border-2  bg-[#231b17] "></div>
+                <div className="h-14 border-1 border-[#564b45ca] w-screen mt-2 md:mt-4 py-2 flex justify-center gap-7 ">
                     <div class="md:grid grid-cols-4 gap-7 hidden  relative top-1 text-white">
                         <div class="h-7 w-20  text-center flex justify-center"><h1> </h1> </div>
                         <div class="h-7 w-20  hover:bg-[#564b45ca] hover:text-white text-center flex justify-center"><h1> Products</h1> </div>
@@ -47,7 +48,8 @@ function Navbar() {
                     </div>
                     <div className="text-amber-600 md:hidden flex ml-auto text-2xl w-10 h-10 text-center justify-center border border-[#564b45ca] rounded-full rotate-90 font-light">||</div>
                 </div>
-                <div className="h-14 md:mt-4 md:w-7 w-2 border-2  bg-[#231b17]"></div>
+                <div className="h-14 md:mt-4 md:w-7 mt-2 w-2 border-2  bg-[#231b17]"></div>
+                
             </div>
 
 
