@@ -19,7 +19,7 @@ function Navbar() {
 
             <div className=" flex flex-cols-3 gap-0   py-1">
                 <div className="md:w-7 w-2 h-10 mt-4 bg-[#231b17]"></div>
-                <div className="w-screen border-2  hover:bg-[#564b45ca] hover:text-white border-white mt-4 py-1 flex justify-center">
+                <div className="w-screen border-1  hover:bg-[#564b45ca] hover:text-white border-white mt-4 py-1 flex justify-center">
                     Rolling motion
                 </div>
                 <div className="md:w-7 w-2 h-10 mt-4 bg-[#231b17]"></div>
