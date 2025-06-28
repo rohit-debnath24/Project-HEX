@@ -57,27 +57,27 @@ const IntDataPage = () => {
         <>
             <section id="IntDataPage">
 
-                <div className=" flex h-screen  sm:flex-cols-[8px_2fr_8px] gap-0  py-4">
+                <div className=" md:flex md:h-screen  sm:flex-cols-[8px_2fr_8px] gap-0  py-4">
                     <div className="w-14   bg-[#231b17]"></div>
                     <div className='sm:w-full border border-amber-100  pt-5 '>
                         <div className=' sm:h-1/16  pl-20 font-thin text-white'>I DATA APPS --</div>
                         <div className=' sm:h-3/16  pl-20 sm:text-5xl font-medium text-white' >Powerful, interactive <br />data apps</div>
                         <div className=' sm:h-2/16  pl-20 text-xl text-white ' >From simple reports to complex workflows, easily<br /> build apps that allow business stakeholders to <br />understand and take action.</div>
-                        <div className=' sm:h-10/16   flex justify-end '><div className='  h-3/4 mt-5 sm:w-11/12 ' >
-                            <div className="min-h-screen">
-                                <div className="relative flex  px-8 py-0 text-white overflow-hidden">
+                        <div className=' sm:h-10/16   flex justify-end '><div className='  md:h-3/4 mt-5 sm:w-11/12 ' >
+                            <div className="md:min-h-screen">
+                                <div className="md:relative flex  px-8 py-0 text-white overflow-hidden">
                                     {/* Vertical Line */}
                                     <div
-                                        className="absolute left-6 top-0 w-1 bg-blue-500 transition-all duration-[3000ms]"
+                                        className="md:absolute md:left-6 md:top-0 w-1 bg-blue-500 transition-all duration-[3000ms]"
                                         style={{ height: lineHeight }}
                                     />
 
                                     {/* Timeline Content */}
-                                    <div className="flex flex-col space-y-0 ml-10 relative z-10">
+                                    <div className="flex flex-col space-y-0 ml-10 md:relative z-10">
                                         {timelineData.map((item, index) => (
                                             <div
                                                 key={index}
-                                                className="relative flex items-start space-x-8 h-12 pb-10 m-2 "
+                                                className="md:relative flex items-start space-x-8 h-12 pb-10 m-2 "
                                             >
                                                 {/* Timeline Box */}
                                                 <div className="timeline-box p- rounded-lg shadow-md w-80 transition-transform duration-500 transform">
@@ -110,7 +110,7 @@ const IntDataPage = () => {
                                     <img
                                         src={item.image}
                                         alt={item.title}
-                                        className={`md:absolute md:top-780 md:left-200 md:h-160 md:w-150 h-20 w-20  object-cover rounded-lg transition-opacity duration-1000 ${activeIndex === index ? "opacity-100" : "opacity-0"
+                                        className={`md:md:absolute md:top-780 md:left-200 md:h-160 md:w-150 h-20 w-20  object-cover rounded-lg transition-opacity duration-1000 ${activeIndex === index ? "opacity-100" : "opacity-0"
                                             }`}
                                     />
                                 </div>
