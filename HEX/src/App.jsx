@@ -11,14 +11,15 @@ import React, { useEffect, useState } from "react";
 import SelfServe from "./Pages/SelfServe.jsx"
 import BuildAnythingPage from "./Pages/BuildAnythingPage.jsx"
 import DeepdivePage from "./Pages/DeepdivePage.jsx"
+import DemoNav from "./Pages/DemoNav.jsx"
 
 
 function App() {
 
-  const [key, setKey] = useState(Date.now()); // unique key to force remount
+  const [key, setKey] = useState(Date.now()); 
 
   useEffect(() => {
-    // Refresh key on mount
+   
     setKey(Date.now());
   }, []);
 
@@ -47,6 +48,7 @@ function App() {
           <SecurityPage />
           <BuildAnythingPage/>
           
+          <DemoNav/>
 
 
 

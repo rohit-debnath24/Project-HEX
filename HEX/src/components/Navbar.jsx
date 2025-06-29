@@ -9,7 +9,7 @@ function Navbar() {
 
     useEffect(() => {
         const onScroll = () => {
-            setSticky(window.scrollY > 100 ); // toggle at 100px
+            setSticky(window.scrollY > 100); // toggle at 100px
         };
         window.addEventListener('scroll', onScroll);
         return () => window.removeEventListener('scroll', onScroll);
@@ -28,14 +28,72 @@ function Navbar() {
             <div className={`${sticky ? 'fixed top-0 left-0 right-0 shadow-md bg-[#100A06] z-50' : 'relative'} 
                      md:py-1 flex justify-between transition-all duration-500
                   `}>
-                    
+
                 <div className="h-14 md:w-7 w-2 mt-2 md:mt-4 border-2  bg-[#231b17] "></div>
                 <div className="h-14 border-1 border-[#564b45ca] w-screen mt-2 md:mt-4 py-2 flex justify-center gap-7 ">
                     <div class="md:grid grid-cols-4 gap-7 hidden  relative top-1 text-white">
                         <div class="h-7 w-20  text-center flex justify-center"><h1> </h1> </div>
-                        <div class="h-7 w-20  hover:bg-[#564b45ca] hover:text-white text-center flex justify-center"><h1> Products</h1> </div>
-                        <div class="h-7 w-20  hover:bg-[#564b45ca] hover:text-white text-center flex">Use cases</div>
-                        <div class="h-7 w-20  hover:bg-[#564b45ca] hover:text-white text-center ...">Enterprise</div>
+                        <div class="h-7 w-20  hover:bg-[#564b45ca]  hover:text-white text-center group flex justify-center">
+
+                        
+                                Product
+                                <div class=" border border-amber-100/50 absolute left-18 grid-rows-5 bg-black gap-2 top-7 w-90 p-2 right-0 z-50    shadow-md hidden group-hover:grid origin-top duration-100 ease-out" >
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    
+                                   
+                                </div>
+                           
+
+
+                        </div>
+                        <div class="h-7 w-20  hover:bg-[#564b45ca]  hover:text-white text-center group flex justify-center">
+
+                        
+                                Product
+                                <div class=" border border-amber-100/50 absolute left-18 grid-rows-5 bg-black gap-2 top-7 w-90 p-2 right-0 z-50    shadow-md hidden group-hover:grid origin-top duration-100 ease-out" >
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    
+                                   
+                                </div>
+                           
+
+
+                        </div>
+                        <div class="h-7 w-20  hover:bg-[#564b45ca]  hover:text-white text-center group flex justify-center">
+
+                        
+                                Product
+                                <div class=" border border-amber-100/50 absolute left-18 grid-rows-5 bg-black gap-2 top-7 w-90 p-2 right-0 z-50    shadow-md hidden group-hover:grid origin-top duration-100 ease-out" >
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    <a class="row-span-1  box-border hover:bg-amber-500/50 text-left"><div className="pl-2"># NoteBooks</div> <div class="text-amber-300 pl-4"  >Lorem ipsum dolor sit consecte adipisicing.</div></a>
+                                    
+                                   
+                                </div>
+                           
+
+
+                        </div>
+                     
+
+
+                     
 
                     </div>
                     <div class="h-10 w-20 font-serif text-center text-4xl text-amber-600">HEX</div>
@@ -49,7 +107,7 @@ function Navbar() {
                     <div className="text-amber-600 md:hidden flex ml-auto text-2xl w-10 h-10 text-center justify-center border border-[#564b45ca] rounded-full rotate-90 font-light">||</div>
                 </div>
                 <div className="h-14 md:mt-4 md:w-7 mt-2 w-2 border-2  bg-[#231b17]"></div>
-                
+
             </div>
 
 
