@@ -14,7 +14,7 @@ const SecNav = () => {
   return (
     <>
     <div ></div>
-      <div className= {`${sticky ? 'fixed top-[66px] left-0 right-0 shadow-md bg-[#100A06] z-50' : 'relative'} 
+      <div className= {`${sticky ? 'fixed top-[66px] left-0 right-0 shadow-md bg-[#100A06] z-30' : 'relative'} 
                    border-2   py-1 justify-center hidden  transition-all duration-500  sm:grid grid-cols-[20px_1fr_20px] gap-0   
                   `}>
         <div className=" min-h-6  bg-[#231b17]"></div>
