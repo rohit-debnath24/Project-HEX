@@ -3,22 +3,22 @@ import React, { useEffect, useRef, useState } from "react";
 const timelineData = [
     {
         title: "Started Learning",
-        description: "Began exploring programming basics.",
+        description: "Began exploring enterprenuership.",
         image: "https://hex.tech/static/4f6dc7a770197ac80c8f029e176ec7f4/be194/2.webp",
     },
     {
-        title: "Built First App",
-        description: "Created my first mini web application.",
+        title: "Built Our First StartUp",
+        description: "Created from a single room to nation.",
         image: "https://hex.tech/static/2e14a09c0f0f9ba152db3b2ce763e00d/1d9d3/1.webp",
     },
     {
-        title: "Won a Hackathon",
-        description: "Participated and won a hackathon event.",
+        title: "Won the Best CEO Award",
+        description: "Participated and won a International event.",
         image: "https://hex.tech/static/0c264b9fea34fc56da022d069d3474cf/be194/3.webp",
     },
     {
-        title: "Got an Internship",
-        description: "Worked with a tech company as an intern.",
+        title: "Got an Autorization",
+        description: "Worked with a tech company as an partner.",
         image: "https://hex.tech/static/d9f7652fd97cc4ec851cb99cfb8b0498/be194/4.webp",
     },
 
@@ -55,20 +55,20 @@ const IntDataPage = () => {
     }, []);
     return (
         <>
-            <section id="IntDataPage">
+            <section id="SelfServe">
 
-                <div className=" md:flex smh-[1100] md:h-screen flex-cols-[8px_2fr_8px] sm:flex-cols-[8px_2fr_8px] gap-0 md:mb-40 py-4 mt-20">
+                <div className=" md:flex smh-[1100] md:h-screen flex-cols-[8px_2fr_8px] sm:flex-cols-[8px_2fr_8px] gap-0 md:mb-40 py-4 mt-20 md:mt-5">
                     <div className="md:w-14 md:h-screen  bg-[#231b17]"></div>
                     <div className='sm:w-full border border-amber-100 h-[600px] md:min-h-screen  pt-5 '>
-                        <div className=' sm:h-1/16  pl-20 font-thin text-white'>I DATA APPS --</div>
-                        <div className=' sm:h-3/16  pl-20 sm:text-5xl font-medium text-white' >Powerful, interactive <br />data apps</div>
-                        <div className=' sm:h-2/16  pl-20 text-xl text-white ' >From simple reports to complex workflows, easily<br /> build apps that allow business stakeholders to <br />understand and take action.</div>
+                        <div className=' sm:h-1/16  pl-10 font-thin text-white'>I DATA APPS --</div>
+                        <div className=' sm:h-3/16  pl-10 sm:text-5xl font-medium text-white' >Powerful, interactive <br />data apps</div>
+                        <div className=' sm:h-2/16  pl-10 text-xl text-white ' >From simple reports to complex workflows, easily<br /> build apps that allow business stakeholders to <br />understand and take action.</div>
                         <div className=' sm:h-10/16   flex justify-end '><div className='  md:h-3/4 mt-5 sm:w-11/12 ' >
                             <div className="md:min-h-screen ">
                                 <div className="relative flex  md:px-8 py-0 text-white overflow-hidden">
                                     {/* Vertical Line */}
                                     <div
-                                        className="absolute  md:left-6 md:top-0 w-1 bg-blue-500 transition-all duration-[3000ms]"
+                                        className="absolute  md:left-6 md:top-0 w-1 bg-amber-800/50 transition-all duration-[3000ms]"
                                         style={{ height: lineHeight }}
                                     />
 
@@ -110,7 +110,7 @@ const IntDataPage = () => {
                                     <img
                                         src={item.image}
                                         alt={item.title}
-                                        className={`absolute md:top-780 md:left-200 md:h-160 md:w-150 h-80 w-80  object-cover rounded-lg transition-opacity duration-1000 ${activeIndex === index ? "opacity-100" : "opacity-0"
+                                        className={`absolute md:top-800 md:left-200 md:h-160 md:w-150 h-80 w-80  object-cover rounded-lg transition-opacity duration-1000 ${activeIndex === index ? "opacity-100" : "opacity-0"
                                             }`}
                                     />
                                 </div>

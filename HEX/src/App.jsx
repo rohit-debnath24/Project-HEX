@@ -39,9 +39,9 @@ function App() {
 
           <DeepdivePage/>
           <IntDataPage /> 
-          <IntDataPage /> 
           {/* <IntDataPage />  */}
-           {/* <SelfServe/> */}
+           <SelfServe/>
+          {/* <IntDataPage />  */}
           <LovablePage />
 
           <IntegrationPage />

@@ -17,8 +17,8 @@ function LandingPage() {
                                 Hex is the AI-powered analytics workspace built for teams driving faster answers and better decisions.
                             </div>
                             <div className="flex justify-around m-auto">
-                                <button className=" md:ml-0 mt-10 w-40 md:w-50 h-16 text-amber-800 border-amber-700 hover:text-amber-500 hover:text-[20px] duration-500 border-2 hover:opacity-100 opacity-90  hover:bg-[#db693069]    ">Get Started</button>
-                                <button className=" md:ml-10 mt-10 w-40 md:w-50 h-16  text-amber-800 border-amber-700 hover:text-amber-500 hover:text-[20px] duration-500 border-2 hover:opacity-100 opacity-90 hover:bg-[#db693069] ">Request a demo</button>
+                                <button className=" md:ml-0 mt-10 w-40 md:w-50 h-16 text-amber-800 border-amber-700 hover:text-amber-500 hover:scale-110 duration-500 border-2 hover:opacity-100 opacity-90  hover:bg-[#db693069]    ">Get Started</button>
+                                <button className=" md:ml-10 mt-10 w-40 md:w-50 h-16  text-amber-800 border-amber-700 hover:text-amber-500 hover:scale-110 duration-500 border-2 hover:opacity-100 opacity-90 hover:bg-[#db693069] border-dashed ">Request a demo</button>
                             </div>
                         </div>
                         <div className="md:aspect-w-16 flex justify-around md:aspect-h-9 md:w-full">

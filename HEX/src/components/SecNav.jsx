@@ -6,7 +6,7 @@ const SecNav = () => {
   
       useEffect(() => {
           const onScroll = () => {
-              setSticky(window.scrollY > 1500 && window.scrollY<4300 ); // toggle at 100px
+              setSticky(window.scrollY > 1500 && window.scrollY<4675 ); // toggle at 100px
           };
           window.addEventListener('scroll', onScroll);
           return () => window.removeEventListener('scroll', onScroll);
@@ -21,9 +21,9 @@ const SecNav = () => {
         <div className=" min-h-6  border-2    py-1  text-[10px] md:text-[15px] text-center items-center">
           <div className="grid  grid-cols-12  min-h-6 w-full">
             <div className=" grid items-center col-span-6  text-[10px] md:text-[15px]  min-h-6 text-left pl-10 lg:text-3xl text-[#dad2ce] font-bold">An integrated workspace for analytics</div>
-            <div className="   col-span-2 grid justify-center text-[10px] md:text-[15px] text-center items-center min-h-6 text-[#bea89d] " ><a href="#"> I Dive-deep analysis </a></div>
+            <div className="   col-span-2 grid justify-center text-[10px] md:text-[15px] text-center items-center min-h-6 text-[#bea89d] " ><a href="#DeepDive"> I Dive-deep analysis </a></div>
             <div className="   col-span-2 grid justify-center text-[10px] md:text-[15px] text-center items-center min-h-6 text-[#bea89d]  "><a href="#IntDataPage"> I Interactive data apps </a></div>
-            <div className="   col-span-2 grid justify-center text-[10px] md:text-[15px] text-center items-center min-h-6 text-[#bea89d] "><a href="#SelfServePage">I Self-serve exploration </a> </div>
+            <div className="   col-span-2 grid justify-center text-[10px] md:text-[15px] text-center items-center min-h-6 text-[#bea89d] "><a href="#SelfServe">I Self-serve exploration </a> </div>
 
 
           </div>
