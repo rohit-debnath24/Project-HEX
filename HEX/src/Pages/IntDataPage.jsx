@@ -57,7 +57,7 @@ const IntDataPage = () => {
         <>
             <section id="IntDataPage">
 
-                <div className=" md:flex smh-[1100] md:h-screen flex-cols-[8px_2fr_8px] sm:flex-cols-[8px_2fr_8px] gap-0 md:mb-40 py-4">
+                <div className=" md:flex smh-[1100] md:h-screen flex-cols-[8px_2fr_8px] sm:flex-cols-[8px_2fr_8px] gap-0 md:mb-40 py-4 mt-20">
                     <div className="md:w-14 md:h-screen  bg-[#231b17]"></div>
                     <div className='sm:w-full border border-amber-100 h-[600px] md:min-h-screen  pt-5 '>
                         <div className=' sm:h-1/16  pl-20 font-thin text-white'>I DATA APPS --</div>
