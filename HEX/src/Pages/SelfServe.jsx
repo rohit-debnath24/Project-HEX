@@ -68,7 +68,7 @@ const SelfServe = () => {
                                 <div className="relative flex  md:px-8 py-0 text-white overflow-hidden">
                                     {/* Vertical Line */}
                                     <div
-                                        className="absolute  md:left-6 md:top-0 w-1 bg-blue-500 transition-all duration-[3000ms]"
+                                        className="absolute  md:left-6 md:top-0 w-1 bg-amber-800/50 transition-all duration-[3000ms]"
                                         style={{ height: lineHeight }}
                                     />
 
