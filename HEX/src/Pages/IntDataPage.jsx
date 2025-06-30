@@ -122,7 +122,10 @@ const IntDataPage = () => {
 
                     </div>
 
-                    <div className="w-14 md:h-screen bg-[#231b17]"></div>
+                    <div className="w-14 md:h-screen bg-[#231b17
+                    
+                    
+                    ]"></div>
                 </div>
 
 
