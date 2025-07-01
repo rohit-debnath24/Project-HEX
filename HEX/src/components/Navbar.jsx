@@ -152,7 +152,14 @@ function Navbar() {
 
                 </div>
                 <div className="h-14 md:mt-4 md:w-7 mt-2 w-2 border-2  bg-[#231b17]"></div>
-                <div className={` top-16 h-[100vh] w-screen  bg-black z-100  overflow-y-scroll   text-amber-50 hidden grid-cols-1 ${isOpen ? "opacity-100" : "opacity-0"} `}>
+            {/* <div className={` absolute  top-16 h-[100vh] w-screen  bg-black z-100  overflow-y-scroll   text-amber-50 grid md:hidden grid-cols-1 ${isOpen ? "opacity-100" : "opacity-0"} `}> */}
+
+
+<div className={`absolute top-16 h-[100vh] w-screen bg-black z-100 overflow-y-scroll text-amber-50 grid md:hidden grid-cols-1 transition-opacity duration-300
+  ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
+
+
+
 
                     <div className=" grid grid-cols-1 h-[58vh]  border-b-2 border-amber-100 border-dashed ">
                         <div className="col-span-1 row-span-1 w-screen  text-[10px]  text-amber-700/50 font-serif pl-4 mt-2 ">PLATFORM</div>
@@ -210,6 +217,7 @@ function Navbar() {
 
                 </div>
             </div>
+                
 
 
 
