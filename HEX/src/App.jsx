@@ -11,6 +11,7 @@ import React, { useEffect, useState } from "react";
 import SelfServe from "./Pages/SelfServe.jsx"
 import BuildAnythingPage from "./Pages/BuildAnythingPage.jsx"
 import DeepdivePage from "./Pages/DeepdivePage.jsx"
+import Footer from "./Pages/Footer.jsx"
 
 
 
@@ -30,7 +31,7 @@ function App() {
   return (
     <>
       <div className=" overflow-hidden">
-        <div className="bg-[#100A06]  ">
+        <div className="bg-[#100A06]   ">
 
           <Navbar />
           <LandingPage />
@@ -47,6 +48,7 @@ function App() {
           <IntegrationPage />
           <SecurityPage />
           <BuildAnythingPage/>
+          <Footer/>
           
          
 

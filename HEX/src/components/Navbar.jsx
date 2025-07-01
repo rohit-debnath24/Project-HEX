@@ -1,6 +1,7 @@
 import { AiFillProduct } from "react-icons/ai";
 import { BsInboxes } from "react-icons/bs";
 import React, { useState, useEffect, use } from 'react';
+import '../index.css';
 
 
 
@@ -18,26 +19,42 @@ function Navbar() {
 
     const [isOpen, setIsOpen] = useState(false);
 
-    const onClick = () => {
 
-        console.log("clicked");
-
-        if (!isOpen) {
-            setIsOpen(true);
-        }
-        if (isOpen) {
-            setIsOpen(false);
-        }
-        return () => isOpen;
-    }
 
     return (
         <>
 
             <div className=" flex flex-cols-3 gap-0   py-1">
                 <div className="md:w-7 w-2 h-10 mt-4 bg-[#231b17]"></div>
-                <div className="w-screen border-1  hover:bg-[#564b45ca] hover:text-white border-white mt-4 py-1 flex justify-center">
-                    Rolling motion
+                <div className="w-screen border-1 overflow-hidden bg-[#564b45ca]  hover:text-white ho  border-white mt-4 py-1 flex">
+                    <div className="w-full flex ">
+                        <div className="flex  loop-scroll hover:loop-pause min-w-max">
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+
+
+                        </div>
+                        <div className="flex loop-scroll hover:loop-pause min-w-max" >
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptates.</div>
+
+
+                        </div>
+                    </div>
                 </div>
                 <div className="md:w-7 w-2 h-10 mt-4 bg-[#231b17]"></div>
             </div>
@@ -135,7 +152,7 @@ function Navbar() {
 
                 </div>
                 <div className="h-14 md:mt-4 md:w-7 mt-2 w-2 border-2  bg-[#231b17]"></div>
-                <div className={`absolute top-16 h-[100vh] w-screen  bg-black z-100  overflow-y-scroll   text-amber-50 md:hidden grid grid-cols-1 ${isOpen ? "opacity-100" : "opacity-0"} `}>
+                <div className={` top-16 h-[100vh] w-screen  bg-black z-100  overflow-y-scroll   text-amber-50 hidden grid-cols-1 ${isOpen ? "opacity-100" : "opacity-0"} `}>
 
                     <div className=" grid grid-cols-1 h-[58vh]  border-b-2 border-amber-100 border-dashed ">
                         <div className="col-span-1 row-span-1 w-screen  text-[10px]  text-amber-700/50 font-serif pl-4 mt-2 ">PLATFORM</div>
@@ -169,7 +186,7 @@ function Navbar() {
                         <div className="col-span-1 h-2 w-screen  text-[15px] font-serif pl-4 p-4"># Explore</div>
                         <div className="col-span-1 h-2 w-screen  text-[15px] font-serif pl-4 p-4"># Embeded analytics</div>
                         <div className="col-span-1 h-2 w-screen  text-[15px] font-serif pl-4 p-4"># AI-powered</div>
-                      
+
 
 
                     </div>
@@ -185,7 +202,7 @@ function Navbar() {
                         <div className="col-span-1 h-2 w-screen  text-[15px] font-serif pl-4 p-4"># Explore</div>
                         <div className="col-span-1 h-2 w-screen  text-[15px] font-serif pl-4 p-4"># Embeded analytics</div>
                         <div className="col-span-1 h-2 w-screen  text-[15px] font-serif pl-4 p-4"># AI-powered</div>
-                      
+
 
 
                     </div>
