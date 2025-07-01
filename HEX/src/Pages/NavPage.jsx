@@ -39,26 +39,7 @@ function NavPage() {
                                 Featuring a grid pattern of horizontal and vertical lines, these graph paper notebooks are a natural choice .</div></div>
 
                         </div>
-                        {/* <div className="p-1 bg-cover  md:pt-7  w-80   m-auto" style={{backgroundImage:`url(${image})`}} >
-                            <div className=" text-sky-50 w-80 md:pt-20 pl-5 h-60"><img src="https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-notebook-with-a-stock-market-graph-for-illustration-png-image_9201120.png" class="md:w-50 md:h-45 w-25 h-25 -mt-12 ml-20 md:-mt-50 md: md:block md:ml-10"></img>NOTEBOOK<div class="overflow-hidden break-words mt-0"> <br/>Graph Paper Notebooks - JetPens
-                                Featuring a grid pattern of horizontal and vertical lines, these graph paper notebooks are a natural choice .</div></div>
-
-                        </div>
-                        <div className="p-1 bg-cover  md:pt-7  w-80   m-auto" style={{backgroundImage:`url(${image})`}} >
-                            <div className=" text-sky-50 w-80 md:pt-20 pl-5 h-60"><img src="https://www.maintworld.com/var/ezwebin_site/storage/images/media/images/screenshot-apm-integrity-overview-dashboard-exploded-tablet-1792x1280/55201-1-eng-GB/screenshot-apm-integrity-overview-dashboard-exploded-tablet-1792x1280.png" class="md:w-50 md:h-45 w-25 h-25 -mt-12 ml-20 md:-mt-50 md: md:block md:ml-10"></img>NOTEBOOK<div class="overflow-hidden break-words mt-0"> <br/>Graph Paper Notebooks - JetPens
-                                Featuring a grid pattern of horizontal and vertical lines, these graph paper notebooks are a natural choice .</div></div>
-
-                        </div> */}
-                        {/* <div className="p-1 bg-cover  md:pt-7  w-80   m-auto" style={{backgroundImage:`url(${image})`}} >
-                            <div className=" text-sky-50 w-80 md:pt-20 pl-5 h-60"><img src="https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-notebook-with-a-stock-market-graph-for-illustration-png-image_9201120.png" class="md:w-50 md:h-45 w-25 h-25 md:-mt-50 md: md:block md:ml-10"></img>NOTEBOOK<div class="overflow-hidden break-words mt-0"> <br/>Graph Paper Notebooks - JetPens
-                                Featuring a grid pattern of horizontal and vertical lines, these graph paper notebooks are a natural choice for sketches and illustrations.</div></div>
-
-                        </div>
-                        <div className="p-1 bg-cover  md:pt-7  w-80   m-auto" style={{backgroundImage:`url(${image})`}} >
-                            <div className=" text-sky-50 w-80 md:pt-20 pl-5 h-60"><img src="https://www.maintworld.com/var/ezwebin_site/storage/images/media/images/screenshot-apm-integrity-overview-dashboard-exploded-tablet-1792x1280/55201-1-eng-GB/screenshot-apm-integrity-overview-dashboard-exploded-tablet-1792x1280.png" class="md:w-50 md:h-45 w-25 h-25 md:-mt-50 md: md:block md:ml-10"></img>NOTEBOOK<div class="overflow-hidden break-words mt-0"> <br/>Graph Paper Notebooks - JetPens
-                                Featuring a grid pattern of horizontal and vertical lines, these graph paper notebooks are a natural choice for sketches and illustrations.</div></div>
-
-                        </div> */}
+                       
                         
                         
                     </div>

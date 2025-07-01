@@ -36,7 +36,7 @@ const IntDataPage = () => {
             intervalRef.current = setInterval(() => {
                 if (i < timelineData.length) {
                     setActiveIndex(i);
-                    setLineHeight((prev) => prev + 70); // adjust to match spacing
+                    setLineHeight((prev) => prev + 70); 
                     i++;
                 } else {
                     clearInterval(intervalRef.current);
@@ -47,7 +47,7 @@ const IntDataPage = () => {
                         startAnimation();
                     }, 3000);
                 }
-            }, 3000); // snail speed
+            }, 3000); 
         };
 
         startAnimation();
@@ -66,33 +66,28 @@ const IntDataPage = () => {
                         <div className=' sm:h-10/16   flex justify-end '><div className='  md:h-3/4 mt-5 sm:w-11/12 ' >
                             <div className="md:min-h-screen ">
                                 <div className="relative flex  md:px-8 py-0 text-white overflow-hidden">
-                                    {/* Vertical Line */}
+                                   
                                     <div
                                         className="absolute  md:left-6 md:top-0 w-1 bg-amber-800/50 transition-all duration-[3000ms]"
                                         style={{ height: lineHeight }}
                                     />
 
-                                    {/* Timeline Content */}
+                                   
                                     <div className="flex flex-col space-y-0 md:ml-10 md:relative z-10">
                                         {timelineData.map((item, index) => (
                                             <div
                                                 key={index}
-                                                className="md:relative flex items-start space-x-8 h-12 pb-10 m-2 "
-                                            >
-                                                {/* Timeline Box */}
+                                                className="md:relative flex items-start space-x-8 h-12 pb-10 m-2 ">
+                                            
                                                 <div className="timeline-box p- rounded-lg shadow-md w-80 transition-transform duration-500 transform">
                                                     <h3 className="font-bold text-lg pl-4 md:pl-0">{item.title}</h3>
                                                     <div
-                                                        className={`transition-all duration-1000 ease-in-out overflow-hidden ${activeIndex === index
-                                                            ? "max-h-40 opacity-100 mt-2"
-                                                            : "max-h-0 opacity-0 mt-0"
-                                                            }`}
-                                                    >
+                                                        className={`transition-all duration-1000 ease-in-out overflow-hidden ${activeIndex === index ? "max-h-40 opacity-100 mt-2": "max-h-0 opacity-0 mt-0"}`}>
                                                         <p className="text-sm text-gray-600 pl-4 md:pl-0">{item.description}</p>
                                                     </div>
                                                 </div>
 
-                                                {/* Timeline Image */}
+                                               
 
                                             </div>
                                         ))}
@@ -122,10 +117,7 @@ const IntDataPage = () => {
 
                     </div>
 
-                    <div className="w-14 md:h-screen bg-[#231b17
-                    
-                    
-                    ]"></div>
+                    <div className="w-14 md:h-screen bg-[#231b17]"></div>
                 </div>
 
 
