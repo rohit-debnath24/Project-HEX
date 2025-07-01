@@ -11,7 +11,7 @@ import React, { useEffect, useState } from "react";
 import SelfServe from "./Pages/SelfServe.jsx"
 import BuildAnythingPage from "./Pages/BuildAnythingPage.jsx"
 import DeepdivePage from "./Pages/DeepdivePage.jsx"
-import DemoNav from "./Pages/DemoNav.jsx"
+
 
 
 function App() {
