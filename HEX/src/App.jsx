@@ -43,6 +43,8 @@ function App() {
           {/* <IntDataPage />  */}
            <SelfServe/>
           {/* <IntDataPage />  */}
+          {/* <IntDataPage />  */}
+          {/* <IntDataPage />  */}
           <LovablePage />
 
           <IntegrationPage />
