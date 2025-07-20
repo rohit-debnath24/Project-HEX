@@ -40,11 +40,9 @@ function App() {
 
           <DeepdivePage/>
           <IntDataPage /> 
-          {/* <IntDataPage />  */}
+          
            <SelfServe/>
-          {/* <IntDataPage />  */}
-          {/* <IntDataPage />  */}
-          {/* <IntDataPage />  */}
+         
           <LovablePage />
 
           <IntegrationPage />
