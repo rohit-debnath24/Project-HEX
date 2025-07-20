@@ -101,11 +101,11 @@ const IntDataPage = () => {
                  inset-0 -rotate- bg-[repeating-linear-gradient(45deg,#491D08_0px,#491D08_1px,transparent_1px,transparent_10px)]
                 '><div className='bg-black rounded-lg h-80 lg:h-165 m-5'>
                             {timelineData.map((item, index) => (
-                                <div key={index} className="lg:w-60 lg:h-60 overflow-hidden rounded-lg  ">
+                                <div key={index} className="lg:w-60 flex justify-center  lg:h-60 overflow-hidden rounded-lg  ">
                                     <img
                                         src={item.image}
                                         alt={item.title}
-                                        className={`absolute lg:top-800 lg:left-200 lg:h-160 lg:w-150 h-80 w-80  object-cover rounded-lg transition-opacity duration-1000 ${activeIndex === index ? "opacity-100" : "opacity-0"
+                                        className={`absolute lg:top-800 lg:left-200 lg:h-160 lg:w-150 h-80 w-80 md:w-120 object-cover rounded-lg transition-opacity duration-1000 ${activeIndex === index ? "opacity-100" : "opacity-0"
                                             }`}
                                     />
                                 </div>
