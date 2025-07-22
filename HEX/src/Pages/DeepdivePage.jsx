@@ -7,7 +7,7 @@ const DeepdivePage = () => {
         <>
             <section id="DeepDive">
                 <div>
-                    <div class="h-screen">
+                    <div class="lg:h-screen">
                         <div class="h-[200px] border grid mt-8 mb-8 grid-cols-[8px_1fr_8px] border-black sm:grid sm:grid-cols-[26px_1fr_26px]">
                             <div class="bg-[#231b17]  sm:col-span-1">a</div>
                             <div class=" grid sm:grid-cols-2 sm:grid-rows-4 ">
@@ -18,7 +18,7 @@ const DeepdivePage = () => {
                             </div>
                             <div class="bg-[#231b17]">c</div>
                         </div>
-                        <div class="md:h-[448px] sm:grid grid grid-cols-[8px_1fr_8px]  sm:grid-cols-[26px_1fr_26px]">
+                        <div class="lg:h-[448px] sm:grid grid grid-cols-[8px_1fr_8px]  sm:grid-cols-[26px_1fr_26px]">
                             <div class="bg-[#231b17] sm:col-span-1"></div>
                             <div class="m-4 rounded-lg h-[350px] md:h-[466px] grid grid-rows-4 sm:grid sm:grid-cols-6"><p className='text-[20px] text-amber-50 p-1 font-medium'>SQL and Python,living <br />together in harmony</p> <p className='text-amber-900 p-1'>Go back and forth between  <br /> and scripts,without jumping between tools.</p>
                                 <div class="sm:col-span-5 row-span-2 row-start-2 sm:row-start-1 sm:col-start-2 m-2 h-[240px] md:h-[450px] bg-cover  rounded-lg" style={{ backgroundImage: `url(${bgimage})` }}> <img src="https://hex.tech/images/notebooks/chart-cell@2x.png" className='bg-cover w-full h-full object-contain'></img></div>
