@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <div class="grid grid-cols-8 grid-rows-6 h-[60vh] mt-4">
+            <div class="grid grid-cols-8 grid-rows-6 lg:h-[80vh] mt-4">
                 <div class=" col-span-1 row-span-1 col-start-1 font-bold text-xl text-[#f5c0c0] pl-4">HEX</div>
                 <div class=" col-span-1 row-span-5  col-start-3">
                     <div className='p-2 text-[8px] sm:text-xl text-amber-100'>Company</div>
