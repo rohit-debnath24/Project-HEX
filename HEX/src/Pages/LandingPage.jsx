@@ -6,9 +6,9 @@ function LandingPage() {
 
             <div className=" flex flex-cols-3  gap-0   py-1">
                 <div className="md:w-7 w-2   bg-[#231b17]"></div>
-                <div className=" w-screen  border-2  flex justify-center">
+                <div className=" w-screen   border-2  flex justify-center">
 
-                    <div className="md:flex ">
+                    <div className="lg:flex ">
                         <div >
                             <div className="md:ml-0 ml-1 text-center md:text-left flex  text-transparent bg-clip-text bg-[linear-gradient(55deg,white_20%,rgba(245,192,192,0.8)_100%)]  mt-10 text-5xl md:text-[75px] md:w-140 md:h-50 h-35 bg-amber-500 font-medium">
                                 Go deeper than<br /> dashboards
