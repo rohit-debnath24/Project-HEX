@@ -29,9 +29,9 @@ const DeepdivePage = () => {
                 </div>
 
                 <div>
-                    <div class="md:h-[550px] ">
+                    <div class="lg:h-[550px] ">
 
-                        <div class="md:h-[448px] sm:grid grid grid-cols-[8px_1fr_8px] sm:grid-cols-[26px_1fr_26px]">
+                        <div class="lg:h-[448px] sm:grid grid grid-cols-[8px_1fr_8px] sm:grid-cols-[26px_1fr_26px]">
                             <div class="bg-[#231b17] sm:col-span-1"></div>
                             <div class="grid grid-cols-1 sm:grid-cols-3 md:ml-10 md:mr-10">
                                 <div class="m-4 rounded-lg  h-[410px] md:h-[516px] grid grid-rows-4 "><div className='p-3'><div className='text-2xl sm:text-3xl text-amber-100 font-medium'>Explore with point and click no code tools</div><div className='text-amber-700'>Hex makes it easier to code implement and deploy your code with ease </div></div>
