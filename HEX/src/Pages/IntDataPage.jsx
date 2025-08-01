@@ -105,7 +105,7 @@ const IntDataPage = () => {
                                     <img
                                         src={item.image}
                                         alt={item.title}
-                                        className={`absolute lg:top-800 lg:left-200 lg:h-160 lg:w-150 h-80 w-80 md:w-120 object-cover rounded-lg transition-opacity duration-1000 ${activeIndex === index ? "opacity-100" : "opacity-0"
+                                        className={`absolute lg:top-840 lg:left-200 lg:h-160 lg:w-150 h-80 w-80 md:w-120 object-cover rounded-lg transition-opacity duration-1000 ${activeIndex === index ? "opacity-100" : "opacity-0"
                                             }`}
                                     />
                                 </div>
